@@ -1,6 +1,6 @@
-# Task was destroyed but it is pending!
+# curl: (92) HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
 
-MRE for https://github.com/pgjones/hypercorn/issues/50
+MRE for https://github.com/pgjones/hypercorn/issues/51
 
 ## How to
 
