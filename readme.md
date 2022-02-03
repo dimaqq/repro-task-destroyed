@@ -10,5 +10,7 @@ Terminal 1:
 * `hypercorn main:app`
 
 Terminal 2:
-* `curl -v http://localhost:8000 --http2-prior-knowledge`
-* repeat some 20 times
+* `time curl -v http://localhost:8000 --http2-prior-knowledge`
+* responds correctly after 9.0x seconds
+* `time curl -v http://localhost:8000 --http2-prior-knowledge`
+* errors out after 5.0x seconds

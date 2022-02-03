@@ -8,5 +8,5 @@ app = FastAPI()
 
 @app.get("/")
 async def foobar():
-    await asyncio.sleep(99)
+    await asyncio.sleep(9)
     return {"foo": "bar"}
